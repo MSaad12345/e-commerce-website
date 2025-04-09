@@ -1,0 +1,15 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ .men img {
+    width: 87%;
+    height: 100%;
+ }
+ .men-product{
+    /* margin: 20px; */
+    margin-bottom: 10%;
+    display: grid;
+    grid-template-columns:300px 300px 300px 300px;
+ }

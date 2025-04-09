@@ -1,0 +1,9 @@
+.breadcrums{
+    width: 80%;
+    margin: 20px;
+}
+.breadcrums img{
+    height: 14px;
+    width: 14px;
+    margin-right: 1px;
+}

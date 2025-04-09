@@ -1,0 +1,13 @@
+import React from 'react'
+import './breadcrums.css'
+import arrow_icon from '../../assents/breadcrum_arrow.png'
+const breadcrums = ( Props) => {
+    const {product} = Props;
+  return (
+    <div className='breadcrums'>
+      HOME <img src={arrow_icon}  alt=''/> SHOP  <img src={arrow_icon}  alt=''/> {product.category}  <img src={arrow_icon}  alt=''/> {product.name}
+    </div>
+  )
+}
+
+export default breadcrums;
